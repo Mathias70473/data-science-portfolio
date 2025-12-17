@@ -1,7 +1,7 @@
 # Customer Segmentation Dashboard
 
 **Status:** 🔜 Planned  
-**Expected:** February 2025
+**Expected:** February 2026
 
 ## Overview
 Interactive dashboard for customer segmentation using clustering algorithms.
