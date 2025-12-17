@@ -1,20 +1,16 @@
-# Payment Default Prediction
+# SQL Business Analytics Cases
 
-**Status:** 🚧 In Progress  
-**Start Date:** January 2025
+**Status:** 🔜 Planned  
+**Expected:** March 2025
 
 ## Overview
-Predictive model using Generalized Linear Models to assess payment default risk in financial operations.
+Collection of advanced SQL queries solving real-world business problems.
 
-## Tech Stack
-- Python (pandas, statsmodels, scikit-learn)
-- Jupyter Notebook
-- Statistical inference methods
+## Focus Areas
+- Complex JOINs and CTEs
+- Window functions
+- Query optimization
+- Business logic implementation
 
-## Coming Soon
-- Data exploration
-- Model development
-- Business insights
-
----
-*This project is part of my Data Science portfolio as I transition from financial operations to data science.*
+Coming soon...
+```
