@@ -1,7 +1,7 @@
 # Payment Default Prediction
 
 **Status:** 🚧 In Progress  
-**Start Date:** January 2025
+**Start Date:** January 2026
 
 ## Overview
 Predictive model using Generalized Linear Models to assess payment default risk in financial operations.
