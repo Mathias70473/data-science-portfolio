@@ -1,20 +1,14 @@
-# Payment Default Prediction
+# Customer Segmentation Dashboard
 
-**Status:** 🚧 In Progress  
-**Start Date:** January 2025
+**Status:** 🔜 Planned  
+**Expected:** February 2025
 
 ## Overview
-Predictive model using Generalized Linear Models to assess payment default risk in financial operations.
+Interactive dashboard for customer segmentation using clustering algorithms.
 
 ## Tech Stack
-- Python (pandas, statsmodels, scikit-learn)
-- Jupyter Notebook
-- Statistical inference methods
+- Python (pandas, seaborn, scikit-learn)
+- Streamlit
+- Plotly
 
-## Coming Soon
-- Data exploration
-- Model development
-- Business insights
-
----
-*This project is part of my Data Science portfolio as I transition from financial operations to data science.*
+Coming soon...
