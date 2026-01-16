@@ -1,6 +1,6 @@
 # Datos
-data/raw/*.csv
-data/processed/*.csv
+data/
+*.csv
 *.xlsx
 
 # Notebooks checkpoints
