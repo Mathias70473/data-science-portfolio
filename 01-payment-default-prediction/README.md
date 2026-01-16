@@ -1,7 +1,7 @@
 ## Payment Default Prediction Model
 
 **Author**: Mathias Gomez Chan  
-**Date**: January 2025  
+**Date**: January 2026  
 **Status**: Portfolio Project #1
 
 ## Executive Summary
@@ -137,4 +137,4 @@ www.linkedin.com/mathiasgomez-ds | https://github.com/Mathias70473 | mathias7047
 
 ---
 
-**Built as Portfolio Project #1 | January 2025**
+**Built as Portfolio Project #1 | January 2026**
