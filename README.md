@@ -89,7 +89,7 @@ This portfolio showcases my journey from statistical theory to practical data sc
 
 ## 📫 Contact
 
-- 💼 **LinkedIn:** [www.linkedin.com/in/mathiasgomez-ds)
+- 💼 **LinkedIn:** [www.linkedin.com/in/mathiasgomez-ds]
 - 📧 **Email:** mathias70473@gmail.com
 - 🌐 **Location:** Mérida, Yucatán, México
 - 🗣️ **Languages:** Spanish (Native), English (C1)
