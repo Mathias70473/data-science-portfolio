@@ -92,32 +92,41 @@ The 0.05 threshold is driven by cost analysis: missed defaults cost NT$65,055 ve
 
 ## Repository Structure
 ```
-payment-default-prediction/
-├── README.md
-├── requirements.txt
-├── notebook.ipynb          # Main analysis
-└── data/
-    └── UCI_Credit_Card.csv
+## Repository Structure
+```
+01-payment-default-prediction/
+├── README.md                              # Project documentation
+├── requirements.txt                       # Python dependencies  
+├── .gitignore                             # Git exclusions
+├── data/
+│   └── raw/
+│       └── UCI_Credit_Card.csv           # Dataset (download from Kaggle)
+└── notebooks/
+    └── payment_default_prediction.ipynb  # Main analysis notebook
+```
+
+**Note**: The `data/` folder is excluded from version control via `.gitignore`
 ```
 
 ## How to Run
 
-1. Clone repository:
+### 1. Clone the Repository
 ```bash
-   git clone [your-repo-url]
-   cd payment-default-prediction
+git clone https://github.com/Mathias70473/data-science-portfolio.git
+cd data-science-portfolio/01-payment-default-prediction
 ```
 
-2. Install dependencies:
+### 2. Download the Dataset
+Download from [Kaggle - UCI Credit Card Default](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset) and place it at `data/raw/UCI_Credit_Card.csv`
+
+### 3. Install Dependencies
 ```bash
-   pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
-3. Run notebook:
+### 4. Run the Notebook
 ```bash
-   jupyter notebook notebook.ipynb
-```
-
+jupyter notebook notebooks/payment_default_prediction.ipynb
 ## Business Impact
 
 This model demonstrates cost-based decision optimization in a real-world credit risk scenario. By aligning the classification threshold with business costs rather than relying on default ML metrics (e.g., accuracy, F1), the model achieves significant ROI while maintaining high recall for default detection. The approach shows how domain knowledge and business constraints should drive model deployment decisions.
