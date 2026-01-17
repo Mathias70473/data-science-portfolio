@@ -1,7 +1,7 @@
 ## Payment Default Prediction Model
 
 **Author**: Mathias Gomez Chan  
-**Date**: January 2025  
+**Date**: January 2026  
 **Status**: Portfolio Project #1
 
 ## Executive Summary
@@ -116,17 +116,16 @@ git clone https://github.com/Mathias70473/data-science-portfolio.git
 cd data-science-portfolio/01-payment-default-prediction
 ```
 
-### 2. Download the Dataset
-Download from [Kaggle - UCI Credit Card Default](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset) and place it at `data/raw/UCI_Credit_Card.csv`
-
-### 3. Install Dependencies
+2. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
 ### 4. Run the Notebook
 ```bash
-jupyter notebook notebooks/payment_default_prediction.ipynb
+   jupyter notebook notebook.ipynb
+```
+
 ## Business Impact
 
 This model demonstrates cost-based decision optimization in a real-world credit risk scenario. By aligning the classification threshold with business costs rather than relying on default ML metrics (e.g., accuracy, F1), the model achieves significant ROI while maintaining high recall for default detection. The approach shows how domain knowledge and business constraints should drive model deployment decisions.
@@ -146,4 +145,4 @@ www.linkedin.com/mathiasgomez-ds | https://github.com/Mathias70473 | mathias7047
 
 ---
 
-**Built as Portfolio Project #1 | January 2025**
+**Built as Portfolio Project #1 | January 2026**
