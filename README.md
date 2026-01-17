@@ -16,7 +16,7 @@ This portfolio showcases my journey from statistical theory to practical data sc
 ## 📂 Projects
 
 ### 1️⃣ Payment Default Risk Prediction
-**Status:** 🚧 In Progress  
+**Status:** Finished! 
 **Tech Stack:** Python (pandas, statsmodels, scikit-learn), Jupyter Notebook  
 **Description:** GLM-based model to predict customer payment defaults using financial data. Includes EDA, feature engineering, and model interpretability.  
 **Key Skills:** Logistic Regression, Statistical Inference, ROC-AUC Analysis  
