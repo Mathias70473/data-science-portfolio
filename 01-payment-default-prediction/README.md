@@ -116,14 +116,17 @@ git clone https://github.com/Mathias70473/data-science-portfolio.git
 cd data-science-portfolio/01-payment-default-prediction
 ```
 
-2. Install dependencies:
+### 2. Download the Dataset
+Download from [Kaggle - UCI Credit Card Default](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset) and place it at `data/raw/UCI_Credit_Card.csv`
+
+### 3. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
 ### 4. Run the Notebook
 ```bash
-   jupyter notebook notebook.ipynb
+jupyter notebook notebooks/payment_default_prediction.ipynb
 ```
 
 ## Business Impact
