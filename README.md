@@ -74,19 +74,6 @@ This portfolio showcases my journey from statistical theory to practical data sc
 
 ---
 
-## 📈 Project Timeline
-
-```
-2025
-├── January     → Project #1: Payment Default Prediction
-├── February    → Project #2: Customer Segmentation + Dashboard
-├── March       → Project #3: SQL Analytics Portfolio
-├── April       → Project #4: Churn Prediction (ML End-to-End)
-└── May         → Project #5: Advanced ML (NLP or Time Series)
-```
-
----
-
 ## 📫 Contact
 
 - 💼 **LinkedIn:** www.linkedin.com/in/mathiasgomez-ds
