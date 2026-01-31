@@ -24,24 +24,6 @@ This portfolio showcases my journey from statistical theory to practical data sc
 
 ---
 
-### 2️⃣ Customer Segmentation Dashboard
-**Status:** 🔜 Coming Soon  
-**Tech Stack:** Python (pandas, seaborn), Streamlit  
-**Description:** Interactive dashboard for customer segmentation analysis with clustering algorithms.  
-**Key Skills:** Unsupervised Learning, Data Visualization, Dashboard Design  
-📁 [View Project](./02-customer-segmentation/)
-
----
-
-### 3️⃣ SQL Analytics - Business Cases
-**Status:** 🔜 Coming Soon  
-**Tech Stack:** PostgreSQL, DBeaver  
-**Description:** Collection of advanced SQL queries solving real-world business problems (CTEs, window functions, optimization).  
-**Key Skills:** Complex Queries, Performance Tuning, Business Logic  
-📁 [View Project](./03-sql-business-cases/)
-
----
-
 ## 🛠️ Technologies Used
 
 | Category | Tools |
