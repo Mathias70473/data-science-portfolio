@@ -1,0 +1,4 @@
+cat > data/raw/.gitignore << 'EOF'
+*
+!.gitignore
+EOF
