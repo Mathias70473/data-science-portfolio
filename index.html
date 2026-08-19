@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#F6F7F4" />
+  <title>Mathias Gomez — Credit Risk &amp; Causal Analysis</title>
+  <meta name="description" content="Economist and statistical methods student working across credit-risk modeling, causal policy evaluation, financial inclusion, and applied econometrics." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:ital,wght@0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="header-top">
+        <p class="eyebrow">Mérida, México · Data science · Applied econometrics</p>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="#projects">Projects</a>
+          <a href="#approach">Approach</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+
+      <div class="hero-grid">
+        <div>
+          <h1>Mathias Gomez</h1>
+          <p class="hero-deck">
+            Economist and statistical methods student working at the intersection of
+            <em>credit-risk modeling</em> and <em>causal policy evaluation</em>.
+          </p>
+        </div>
+        <aside class="hero-note" aria-label="Professional positioning">
+          <span class="eyebrow eyebrow--light">Core positioning</span>
+          <p>Scoring risk → testing the decision → evaluating the policy.</p>
+        </aside>
+      </div>
+
+      <div class="header-actions">
+        <a class="button button--primary" href="mailto:mathias70473@gmail.com">Email Mathias</a>
+        <a class="button button--quiet" href="https://github.com/Mathias70473" target="_blank" rel="noopener">GitHub</a>
+        <a class="button button--quiet" href="https://www.linkedin.com/in/mathiasgomez-ds" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="signal-strip" aria-label="Professional thesis">
+      <div class="container signal-strip__inner">
+        <span class="signal-strip__label">A model is a beginning</span>
+        <p>Build it to be understood. Test it to be trusted. Evaluate it to learn what changed.</p>
+      </div>
+    </section>
+
+    <section class="pitch" aria-labelledby="pitch-heading">
+      <div class="container">
+        <div class="section-intro">
+          <p class="eyebrow">01 · The through-line</p>
+          <h2 id="pitch-heading">Quantitative work for consequential decisions.</h2>
+        </div>
+        <div class="pitch-copy">
+          <p class="pitch-lead">Credit decisions are made twice: first when a model scores an applicant, and again when someone asks whether the policy built around that decision actually worked.</p>
+          <p>I work across both halves. My projects combine interpretable credit models, cost-sensitive thresholds, and quasi-experimental evaluation of financial-access policy. The aim is not just a precise estimate; it is a defensible answer with its assumptions in view.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="approach" id="approach" aria-labelledby="approach-heading">
+      <div class="container">
+        <div class="section-intro">
+          <p class="eyebrow">02 · Method</p>
+          <h2 id="approach-heading">A compact quantitative practice.</h2>
+        </div>
+        <div class="approach-list">
+          <article class="approach-row">
+            <span class="approach-row__number">01</span>
+            <div>
+              <h3>Model the decision</h3>
+              <p>WoE / IV feature selection, logistic regression, score scaling, and thresholds tied to asymmetric lending costs.</p>
+            </div>
+            <span class="approach-row__label">Credit risk</span>
+          </article>
+          <article class="approach-row">
+            <span class="approach-row__number">02</span>
+            <div>
+              <h3>Test the identification</h3>
+              <p>Difference-in-differences, staggered-adoption estimators, event-study diagnostics, and explicit attention to threats to validity.</p>
+            </div>
+            <span class="approach-row__label">Causal inference</span>
+          </article>
+          <article class="approach-row">
+            <span class="approach-row__number">03</span>
+            <div>
+              <h3>Report the boundary</h3>
+              <p>Quantitative results alongside data limitations, comparability checks, and the decisions the analysis can actually inform.</p>
+            </div>
+            <span class="approach-row__label">Communication</span>
+          </article>
+        </div>
+        <dl class="tool-list" aria-label="Technical tools">
+          <div><dt>Languages</dt><dd>Python · SQL · R</dd></div>
+          <div><dt>Statistical work</dt><dd>Regression · inference · WoE / IV · DiD</dd></div>
+          <div><dt>Data and tooling</dt><dd>pandas · scikit-learn · statsmodels · csdid</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="projects" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-intro section-intro--projects">
+          <div>
+            <p class="eyebrow">03 · Evidence</p>
+            <h2 id="projects-heading">Selected projects</h2>
+          </div>
+          <p>Three projects that show how I frame a problem, choose a method, and report what the evidence can support.</p>
+        </div>
+
+        <div class="filter-bar" id="filter-bar" role="group" aria-label="Filter projects by category">
+          <button type="button" data-filter="all" class="is-active" aria-pressed="true">All projects</button>
+          <button type="button" data-filter="credit" aria-pressed="false">Credit risk</button>
+          <button type="button" data-filter="policy" aria-pressed="false">Policy evaluation</button>
+        </div>
+
+        <div id="featured-project" class="featured-project"></div>
+        <div id="project-grid" class="grid" aria-live="polite"></div>
+        <noscript>
+          <ul class="grid project-fallback" aria-label="Projects without JavaScript">
+            <li><strong>Banco del Bienestar &amp; Private Financial Infrastructure</strong> — <a href="https://github.com/Mathias70473/data-science-portfolio/tree/main/03-banco-bienestar-financial-inclusion">view on GitHub</a></li>
+            <li><strong>Payment Default Prediction</strong> — <a href="https://github.com/Mathias70473/data-science-portfolio/tree/main/01-payment-default-prediction">view on GitHub</a></li>
+            <li><strong>Credit Risk Scorecard</strong> — <a href="https://github.com/Mathias70473/data-science-portfolio/tree/main/02-credit-risk-scorecard">view on GitHub</a></li>
+          </ul>
+        </noscript>
+      </div>
+    </section>
+
+    <section class="demo" id="demo" aria-labelledby="demo-heading">
+      <div class="container">
+        <div class="section-intro">
+          <p class="eyebrow">04 · Interactive illustration</p>
+          <h2 id="demo-heading">See the scorecard logic move.</h2>
+        </div>
+        <p class="demo-intro">A small educational illustration of normalized inputs, directionality, and score scaling. It is <strong>not a trained model or a credit decision</strong>.</p>
+
+        <div class="demo-box" id="demo-box">
+          <div class="demo-controls" id="demo-controls" aria-describedby="demo-disclosure">
+            <div class="demo-control">
+              <label for="income">Monthly income (MXN) <output for="income">25,000 MXN</output></label>
+              <input type="range" id="income" data-input="income" min="5000" max="80000" step="1000" value="25000" aria-valuetext="25,000 MXN" />
+            </div>
+            <div class="demo-control">
+              <label for="utilization">Credit utilization (%) <output for="utilization">35%</output></label>
+              <input type="range" id="utilization" data-input="utilization" min="0" max="100" step="1" value="35" aria-valuetext="35%" />
+            </div>
+            <div class="demo-control">
+              <label for="payment">On-time payment history (0–100) <output for="payment">90%</output></label>
+              <input type="range" id="payment" data-input="payment" min="0" max="100" step="1" value="90" aria-valuetext="90%" />
+            </div>
+            <p class="demo-disclosure" id="demo-disclosure">Placeholder weights are used only to demonstrate the mechanics; they are not coefficients from the Credit Risk Scorecard project.</p>
+          </div>
+          <div class="demo-result" aria-live="polite">
+            <span class="demo-result__label">Illustrative score</span>
+            <span class="demo-result__score" id="demo-score">622</span>
+            <span class="demo-result__band" id="demo-band">Illustrative only</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="background" aria-labelledby="background-heading">
+      <div class="container background-grid">
+        <div>
+          <p class="eyebrow">05 · Background</p>
+          <h2 id="background-heading">Economist by training. Statistician by method.</h2>
+          <p>I am studying Statistical Methods at UADY after completing a BSc in Economics. I am interested in roles where financial data, policy questions, and careful inference meet — especially credit risk, lending, fintech, and applied economic analysis.</p>
+        </div>
+        <div class="background-facts">
+          <div><span>Current focus</span><strong>MSc Statistical Methods · UADY</strong></div>
+          <div><span>Location</span><strong>Mérida, Yucatán, México</strong></div>
+          <div><span>Open to</span><strong>Credit risk · lending · policy analytics</strong></div>
+          <div><span>Languages</span><strong>Spanish · English (C1)</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-heading">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">06 · Contact</p>
+          <h2 id="contact-heading">Have a quantitative problem worth making defensible?</h2>
+          <p>I am open to conversations about data science, credit risk, applied econometrics, and policy analysis. A short note is enough to start.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:mathias70473@gmail.com"><span>Email</span><strong>mathias70473@gmail.com</strong></a>
+          <a href="https://github.com/Mathias70473" target="_blank" rel="noopener"><span>Code</span><strong>github.com/Mathias70473</strong></a>
+          <a href="https://www.linkedin.com/in/mathiasgomez-ds" target="_blank" rel="noopener"><span>Professional</span><strong>linkedin.com/in/mathiasgomez-ds</strong></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>MSc Statistical Methods (UADY) · BSc Economics</p>
+      <p>© 2026 Mathias Gomez</p>
+    </div>
+    <div class="container footer-note">Static site · no trackers · no dependencies</div>
+  </footer>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
