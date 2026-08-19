@@ -30,8 +30,8 @@ This portfolio showcases my journey from statistical theory to practical data sc
 **Key Skills:** Logistic Regression, Statistical Inference, WoE, IV.  
 📁 [View Project](./02-credit-risk-scorecard/)
 
----
-### 3. Credit Risk Scorecard
+
+### 3. Evaluation of the Effect of Banco del Bienestar on Private Financial Infrastructure
 **Status:** Finished! 
 **Tech Stack:** Callaway-Sant'Anna (staggered-adoption-robust), outcome in log(1+corresponsales)  
 **Description:** This project evaluates whether the 2022 Banco del Bienestar branch expansion affected private financial infrastructure (corresponsales) in previously unserved Mexican municipalities, using a staggered Difference-in-Differences design (Callaway-Sant'Anna) on municipal-level CNBV panel data. 
