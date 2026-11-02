@@ -26,7 +26,7 @@ methodology used by credit risk teams in production environments.
 |---|---|
 | ROC-AUC | 0.8115 |
 | Gini | 0.62 |
-| KS Statistic | 0.51 |
+| KS Statistic | 0.5548 |
 | Score range | 504 – 715 |
 | Mean score | 613 |
 
@@ -44,7 +44,7 @@ The pipeline follows five stages:
    target variable analysis, relationship between features and default rate
 2. **WoE/IV Computation** — binning strategy, WoE per bin, IV per variable 
    for all 20 features
-3. **Feature Selection** — variables with IV ≥ 0.10 selected (8 features retained)
+3. **Feature Selection** — variables with IV ≥ 0.10 selected (8 selected, 7 retained in the final model)
 4. **Logistic Regression** — fitted on WoE-encoded features, coefficients 
    validated with statsmodels, borderline variable pruned based on p-value 
    and business justification
@@ -63,7 +63,10 @@ The pipeline follows five stages:
 | sparkont | Savings account | 0.1960 | Medium |
 | verw | Purpose | 0.1692 | Medium |
 | hoehe | Amount | 0.1138 | Medium |
+| verm | Property | 0.1126 | Medium |
 | alter | Age | 0.1048 | Medium |
+
+> `verm` passed the IV ≥ 0.10 filter but was pruned during modelling (p = 0.093); `hoehe` was kept despite p = 0.056 for business interpretability. See §Methodology, step 4.
 
 ---
 
