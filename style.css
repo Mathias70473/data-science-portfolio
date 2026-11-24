@@ -102,6 +102,11 @@ em {
 
 .site-header {
   border-bottom: 1px solid var(--rule);
+  background-color: var(--paper);
+  background-image:
+    linear-gradient(to right, rgba(20, 102, 79, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(20, 102, 79, 0.08) 1px, transparent 1px);
+  background-size: 1.5rem 1.5rem;
   padding: 1.4rem 0 3.4rem;
 }
 
@@ -127,9 +132,11 @@ em {
 }
 
 .hero-grid {
+  border-left: 3px double var(--rule-dark);
   display: grid;
   gap: 2.25rem;
   margin-top: 3.8rem;
+  padding-left: 1.25rem;
 }
 
 h1,
@@ -163,7 +170,8 @@ h1 {
 
 .hero-note {
   align-self: start;
-  background: var(--ledger-tint);
+  background: var(--paper);
+  border: 1px solid var(--rule-dark);
   border-left: 3px solid var(--ledger);
   max-width: 25rem;
   padding: 1.25rem 1.35rem;
@@ -409,13 +417,14 @@ section:not(.site-header) {
   padding: 1.55rem;
 }
 
+.card .eyebrow,
 .card__eyebrow,
 .card__meta {
   color: var(--ink-soft);
   font-family: var(--mono);
-  font-size: 0.7rem;
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  text-transform: none;
 }
 
 .card__title {
@@ -442,7 +451,7 @@ section:not(.site-header) {
 .metric {
   color: var(--ledger);
   font-family: var(--mono);
-  font-size: 0.75rem;
+  font-size: 0.85rem;
 }
 
 .metric--num {
@@ -460,9 +469,8 @@ section:not(.site-header) {
 
 .metric__label {
   color: var(--ink-soft);
-  font-size: 0.65rem;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.01em;
 }
 
 .metric--text {
@@ -501,10 +509,9 @@ section:not(.site-header) {
 .card__evidence-item dt {
   color: var(--ink-soft);
   font-family: var(--mono);
-  font-size: 0.66rem;
-  letter-spacing: 0.07em;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
   margin-bottom: 0.25rem;
-  text-transform: uppercase;
 }
 
 .card__evidence-item dd {
@@ -521,9 +528,8 @@ section:not(.site-header) {
 .card__limitations-label {
   color: var(--ink-soft);
   font-family: var(--mono);
-  font-size: 0.66rem;
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
 }
 
 .card__limitations ul {
@@ -558,7 +564,7 @@ section:not(.site-header) {
 .stack {
   color: var(--ink-soft);
   font-family: var(--mono);
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 .stack::before {
@@ -584,8 +590,8 @@ section:not(.site-header) {
   border: 1px solid var(--rule);
   color: var(--ink-soft);
   font-family: var(--mono);
-  font-size: 0.67rem;
-  padding: 0.2rem 0.48rem;
+  font-size: 0.8rem;
+  padding: 0.2rem 0.5rem;
 }
 
 .card__links {
@@ -596,7 +602,7 @@ section:not(.site-header) {
 
 .card__link {
   font-family: var(--mono);
-  font-size: 0.78rem;
+  font-size: 0.85rem;
   font-weight: 500;
 }
 
@@ -634,6 +640,7 @@ section:not(.site-header) {
 
 .card--featured .metric__label,
 .card--featured .card__stack,
+.card--featured .stack,
 .card--featured .tag,
 .card--featured .card__meta {
   color: #b8c8be;
@@ -704,6 +711,10 @@ section:not(.site-header) {
 .card--featured[data-category="policy"] .metric--num .metric__value,
 .card--featured[data-category="policy"] .card__link {
   color: var(--sky);
+}
+
+.card--featured[data-category="policy"] .metric--text {
+  background: rgba(159, 201, 224, 0.12);
 }
 
 .card--featured[data-category="policy"] .metric--text,
